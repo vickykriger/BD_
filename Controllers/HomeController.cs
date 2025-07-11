@@ -24,7 +24,7 @@ public class HomeController : Controller
         string palabra = "Index";
         if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(contraseña))
         {
-            ViewBag.error = "Por favor, complete todos los camposs.";
+            ViewBag.error = "Por favor, complete todos los campos.";
             palabra = "Index";
         }
         Integrante integranteBien = BD.validarIntegrante(email, contraseña);

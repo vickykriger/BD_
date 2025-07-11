@@ -1,11 +1,15 @@
-<p>@ViewBag.integrante.nombre</p>
-<p>@ViewBag.integrante.email</p>
-<p>@ViewBag.integrante.fechaNacimiento</p>
-<p>@ViewBag.integrante.dni</p>
-<p>@ViewBag.integrante.telefono</p>
-<p>@ViewBag.integrante.direccion</p>
-<p>@ViewBag.integrante.paisNacimiento</p>
-<p>@ViewBag.integrante.colorFav</p>
-<section>
-<a href='@Url.Action("Index","Home")' class = "boton">Volver a la pagina principal</a>
-</section>
+<div class="perfil">
+    <h2>Perfil del Usuario</h2>
+    <div><strong>Nombre:</strong> @ViewBag.integrante.nombre</div>
+    <div><strong>Email:</strong> @ViewBag.integrante.email</div>
+    <div><strong>Fecha de Nacimiento:</strong> @ViewBag.integrante.fechaNacimiento</div>
+    <div><strong>DNI:</strong> @ViewBag.integrante.dni</div>
+    <div><strong>Teléfono:</strong> @ViewBag.integrante.telefono</div>
+    <div><strong>Dirección:</strong> @ViewBag.integrante.direccion</div>
+    <div><strong>País de Nacimiento:</strong> @ViewBag.integrante.paisNacimiento</div>
+    <div><strong>Color Favorito:</strong> @ViewBag.integrante.colorFav</div>
+
+    <section style="margin-top: 20px;">
+        <a href='@Url.Action("Index","Home")' class="boton">Volver a la página principal</a>
+    </section>
+</div>

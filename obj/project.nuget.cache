@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8WjW6I3/JvHbPsthgi9AhU+Wda54ezT11QrWHOcjM+3gdd5K8E+CvJK+nhL4jf7nSV/dXKpimO2DkgHDsWawdg==",
+  "dgSpecHash": "drNYKkFVdJoIScLmzt6DXEbHVjD3Q3WjDiyFSmnoEr5FMpAn7NQCU6JCnzh5EW341Y/3tkqrTJYHc2QTChU9DQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\49094257\\BaseDeDatos\\BaseDeDatos.csproj",
+  "projectFilePath": "C:\\Users\\49094257\\Downloads\\BD_-master\\BD_\\BaseDeDatos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\49094257\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\49094257\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
